@@ -1,0 +1,94 @@
+/* Estilos de la barra de navegación */
+.myNavBar {
+  height: 10vh;
+  background-color: #7979a3;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.navLink a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navLink {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 4rem;
+}
+
+.active {
+  color: purple;
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+.notActive {
+  color: #D0CDC6;
+}
+
+.iconoPagina img {
+  height: 3rem;
+  filter: invert(1);
+}
+
+.iconoPagina {
+  margin-left: 2rem;
+}
+
+/* Estilos de la sección principal */
+.homeMain,
+.pokemonesMain,
+.mainPokeInfo {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeMain img {
+  height: 500px;
+}
+
+.homeMain h1 {
+  font-size: 3rem; 
+  color: purple;
+  text-transform: uppercase; 
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); 
+}
+
+/* Estilos del formulario */
+.pokemonesMain form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.pokemonesMain form label {
+  font-size: 4rem;
+}
+
+.pokemonesMain form select {
+  border: solid 1px rgba(51, 48, 48, 0.19);
+  border-radius: 0.2rem;
+  width: 20rem;
+  height: 2rem;
+  text-align: center;
+}
+
+.pokemonesMain form input {
+  height: 2rem;
+  width: 10rem;
+  border: solid 1px black;
+  border-radius: 0.2rem;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
